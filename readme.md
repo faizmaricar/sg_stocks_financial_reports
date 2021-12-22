@@ -8,12 +8,13 @@ This works on python 3.9.7
 
 ### Using Anaconda
 
-`conda create --file ./requirements.txt -n <environment_name>`
-`conda activate <environment_name>`
+`conda config --add channels conda-forge`
+`conda config --add channels microsoft`
+`conda install --file requirements.txt`
 
-### Using Pip
+### Install browser binaries
 
-`pip install -r requirements.txt`
+`playwright install`
 
 ## Run script
 
