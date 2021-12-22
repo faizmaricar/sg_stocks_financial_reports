@@ -9,7 +9,9 @@ This works on python 3.9.7
 ### Using Anaconda
 
 `conda config --add channels conda-forge`
+
 `conda config --add channels microsoft`
+
 `conda install --file requirements.txt`
 
 ### Install browser binaries
